@@ -1,4 +1,4 @@
-package me.github.fixandroid14debuggablelag
+package me.bzcoder.fixandroid14debuggablelag
 
 import com.bytedance.shadowhook.ShadowHook
 import com.bytedance.shadowhook.ShadowHook.ConfigBuilder

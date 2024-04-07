@@ -6,7 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import me.github.fixandroid14debuggablelag.FixTools
+import me.bzcoder.fixandroid14debuggablelag.FixTools
 import kotlin.system.measureTimeMillis
 
 class MainActivity : AppCompatActivity() {

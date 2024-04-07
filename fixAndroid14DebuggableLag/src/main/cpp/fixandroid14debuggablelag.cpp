@@ -25,7 +25,7 @@ int findOffset(void *start, int regionStart, int regionEnd, T value) {
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_me_github_fixandroid14debuggablelag_FixTools_fixAndroid14DebuggableLag(JNIEnv *env,
+Java_me_bzcoder_fixandroid14debuggablelag_FixTools_fixAndroid14DebuggableLag(JNIEnv *env,
                                                                             jobject thiz) {
     void *handler = shadowhook_dlopen("libart.so");
     void **instance_ = static_cast<void **>(shadowhook_dlsym(handler,
